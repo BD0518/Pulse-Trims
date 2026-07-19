@@ -1,0 +1,19 @@
+name: "💡 Feature Suggestion / 功能建议"
+description: "Share an idea to improve the mod. / 分享创意，改进模组。"
+title: "[Suggestion]: "
+labels: ["enhancement"]
+assignees: ["BD0518"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest! I'd love to hear your thoughts. 感谢关注，欢迎提议。
+
+  - type: textarea
+    id: content
+    attributes:
+      label: "What's on your mind? / 你的想法。"
+      description: "Share your idea – images, videos, or links are also welcome. 可附截图或链接。"
+      placeholder: "I think it would be cool if... / 如果能……"
+    validations:
+      required: true
