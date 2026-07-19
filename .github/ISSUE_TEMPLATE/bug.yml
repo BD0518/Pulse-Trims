@@ -1,0 +1,76 @@
+name: "🐛 Bug Report / 问题反馈"
+description: "Report a bug. / 反馈漏洞。"
+title: "[Bug]: "
+labels: ["bug"]
+assignees: ["BD0518"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! 感谢您花时间填写反馈。
+
+  - type: dropdown
+    id: loader
+    attributes:
+      label: "Mod Loader / 加载器"
+      description: "Please select the mod loader you are using. 所使用的加载器。"
+      options:
+        - Fabric
+        - NeoForge
+        - Forge
+    validations:
+      required: true
+
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: "Minecraft Version / 游戏版本"
+      description: "Your game version. 所运行的游戏版本。"
+      placeholder: "ex. 1.21.1 (例: 1.21.1)"
+    validations:
+      required: true
+
+  - type: input
+    id: mod_version
+    attributes:
+      label: "Mod Version / 模组版本"
+      description: "Your mod version. 所使用的模组版本。"
+      placeholder: "ex. 1.0.0 (例: 1.0.0)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Problem Description / 问题描述"
+      description: "What happened? 发生了什么？"
+      placeholder: "Please describe the bug in detail. 请详细描述。"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to Reproduce / 重现步骤"
+      description: "How to trigger it? 如何重现？"
+      placeholder: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: false
+
+  - type: input
+    id: log_link
+    attributes:
+      label: "latest.log / 最新日志"
+      description: |
+        For best results, please **restart and reproduce** before uploading. 请**重启并重现**后上传，方便分析。
+        - **Official Launcher / 官方:** `.minecraft/logs/`
+        - **PCL2 (版本隔离):** `.minecraft/versions/[Name]/logs/`
+        - **Others / 其他:** `[Game Folder]/logs/`
+        
+        Upload to [mclo.gs](https://mclo.gs/) and paste the link. 请上传到 [mclo.gs](https://mclo.gs/) 并将链接粘贴到这里。
+      placeholder: "ex. https://mclo.gs/xxxxxx (例: https://mclo.gs/xxxxxx)"
+    validations:
+      required: true
