@@ -25,5 +25,5 @@ See [LICENSE](LICENSE) and [LICENSE-CC-BY-4.0.txt](LICENSE-CC-BY-4.0.txt) for fu
 
 ## Links
 
-- [GitHub Issues](https://github.com/BD0518/Pulse-Trims/issues/new/choose)
+- [Report issues](https://github.com/BD0518/Pulse-Trims/issues/new/choose)
 - [Discord](https://discord.gg/Mx5Ptwx76A)
