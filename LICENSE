@@ -1,0 +1,29 @@
+Pulse Trims — License
+
+This project uses a dual-license model.
+
+
+Original Code — All Rights Reserved
+
+Copyright (c) 2025-2026 BD0518. All Rights Reserved.
+
+All code in this project is original and ARR, except as noted below.
+
+
+Adapted Code — CC BY 4.0
+
+The trim detection logic in the shader templates (texture sampling
+pattern, trim lighting branch structure, PER_FACE_LIGHTING / ALPHA_CUTOUT /
+NO_OVERLAY preprocessor blocks, and apply_fog call) is adapted from:
+
+  Emissive Trims by Bluebird
+  https://modrinth.com/resourcepack/emissive-trims
+
+This adapted portion is licensed under the Creative Commons Attribution
+4.0 International License (CC BY 4.0). To view a copy of this license,
+see LICENSE-CC-BY-4.0.txt or visit https://creativecommons.org/licenses/by/4.0/
+
+The adapted code has been extended with dynamic pulse effects including
+waveform generation, ripple mapping, chroma shift, flash cycling, dual-layer
+modulation, noise, environmental light response, hue rotation, and saturation
+adjustment.
