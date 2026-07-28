@@ -25,5 +25,8 @@ See [LICENSE](LICENSE) and [LICENSE-CC-BY-4.0.txt](LICENSE-CC-BY-4.0.txt) for fu
 
 ## Links
 
+- [Download on Modrinth](https://modrinth.com/mod/pulse-trims)
+- [Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/pulse-trims)
+- [Trailer on YouTube](https://youtu.be/AdJyHpRceCI)
 - [Report issues](https://github.com/BD0518/Pulse-Trims/issues/new/choose)
 - [Discord](https://discord.gg/Mx5Ptwx76A)
