@@ -6,7 +6,7 @@ Makes armor trims glow and pulse.
 
 - 3 modes: pulse, glow, off
 - 5 built-in presets
-- 30+ adjustable parameters per style
+- Multiple adjustable parameters per style
 - Create, edit, copy, import/export custom styles
 
 ## License
